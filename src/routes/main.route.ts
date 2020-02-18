@@ -1,5 +1,5 @@
 import * as express from "express";
-import {mainHandler} from '../handler/MainHandler'
+import {mainHandler} from '../handler/main.handler'
 
 class MainRoute {
     public router: express.Router = express.Router();

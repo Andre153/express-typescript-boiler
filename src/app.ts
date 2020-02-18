@@ -1,6 +1,6 @@
 import * as express from "express";
 import * as bodyParser from "body-parser";
-import {mainRoute} from './routes/MainRoute'
+import {mainRoute} from './routes/main.route'
 
 class App {
 
@@ -20,8 +20,6 @@ class App {
     private configureRoutes(): void {
         this.app.use('/', mainRoute)
     }
-
-
 }
 
 export default new App().app;
